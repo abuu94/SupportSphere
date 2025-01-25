@@ -41,3 +41,17 @@ plt.ylabel("Frequency")
 plt.title("Distribution of House Sizes");
 
 
+# Use Matplotlib to create boxplot of "area_m2"
+
+plt.boxplot(df["area_m2"],vert=False)
+plt.xlabel("Area [sq meters]")
+plt.title("Distribution of Home Sizes");
+
+
+# Use Matplotlib to create histogram of "price_usd"
+plt.hist(df["price_usd"])
+plt.xlabel("Price [USD]")
+plt.ylabel("Frequency")
+plt.title("Distribution of Home Prices");
+
+
