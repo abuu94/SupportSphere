@@ -38,3 +38,15 @@ Steps: After running Ubuntu Trial and Open Terminal
      - Confirm with y to save changes.
   ```
 - Step 7: Reboot into Windows
+
+
+
+Step: Look for entries with ntfs under the FSTYPE column. Example output:
+```
+lsblk -f
+cd /media/ubuntu/[folder]/Windows/System32/config
+sudo chntpw -l SAM
+sudo chntpw -u [username] SAM
+
+
+```
