@@ -27,3 +27,8 @@ $ .venv\Scripts\Activate.ps1
 (.venv) $ python manage.py runserver
 (.venv) $ python manage.py startapp pages
 ```
+
+- Create Dockerfile and .dockerignore then run commands
+  ```
+  docker build .
+  ```
