@@ -32,3 +32,7 @@ $ .venv\Scripts\Activate.ps1
   ```
   docker build .
   ```
+  - create docker-compose.yml
+    ```
+    docker-compose up
+    ```
