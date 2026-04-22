@@ -8,8 +8,14 @@
 - **.gitignore** → Exclude virtual environments, `.env`, SQLite DB, caches.  
 - **.env** → Store secrets (`SECRET_KEY`, `DEBUG`, `DATABASE_URL`).  
 - **requirements.txt** → List dependencies (Django, Gunicorn, Whitenoise, psycopg2, etc.).  
-- **Procfile** → Define process type (`web: gunicorn django_project.wsgi`).  
-- **runtime.txt** → Specify Python version (e.g., `python-3.12.2`).  
+- **Procfile** → Define process type (`web: gunicorn django_project.wsgi`).
+  ```
+    web: gunicorn django_project.wsgi --log-file -
+  ``` 
+- **runtime.txt** → Specify Python version (e.g., `python-3.12.2`).
+  ```
+    python-3.12.2
+  ```
 
 ---
 
@@ -24,6 +30,19 @@
 - **Monitor Logs** → Debug runtime issues.  
 - **View Info** → Inspect app metadata and status.  
 
+```
+heroku login
+heroku create vema-blog-api
+heroku addons:create heroku-postgresql:essential-0 -a vema-blog-api
+heroku addons:info postgresql-polished-67797
+heroku config:set SECRET_KEY="XXXXXXXXXXXXXX"
+git push heroku main
+heroku ps:scale web=1
+heroku run python manage.py migrate
+heroku run python manage.py createsuperuser
+heroku logs --tail -a vema-blog-api
+heroku info -a vema-blog-api
+```
 ---
 
 ## 🌟 Key Insight
@@ -33,6 +52,4 @@
 
 ---
 
-This infographic gives a clear overview of how developers move from local configuration to live deployment on Heroku. It’s perfect for sharing in documentation or presentations to help teams understand the deployment lifecycle.  
 
-Would you like me to also **adapt this infographic into a LinkedIn‑friendly visual caption** (short, catchy text to accompany the image) so your post grabs attention immediately?
