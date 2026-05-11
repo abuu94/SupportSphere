@@ -82,6 +82,12 @@ If you want to be 100% safe:
 heroku ps:scale web=1 --app vema-blog-api
 ```
 
+# To delete database and entire app
+```
+heroku addons:destroy heroku-postgresql --app vema-blog-api
+heroku apps:destroy --app vema-blog-api
+```
+
 
 
 
