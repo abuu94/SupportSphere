@@ -77,6 +77,11 @@ If you want to be 100% safe:
 
 ```
 
+# To make it up again use this:
+```
+heroku ps:scale web=1 --app vema-blog-api
+```
+
 
 
 
