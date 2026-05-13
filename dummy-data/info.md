@@ -4,61 +4,61 @@ Here’s a full list of your API endpoints in the format you asked for, based on
 ---
 
 ## 🔑 Authentication
-- `http://127.0.0.1:8000/api/login/`  
-- `http://127.0.0.1:8000/api/token/refresh/`
+- `https://ikhlabackend.deploy.tz/api/login/`  
+- `https://ikhlabackend.deploy.tz/api/token/refresh/`
 
 ---
 
 ## 👤 User Utilities
-- `http://127.0.0.1:8000/api/users/`  
-- `http://127.0.0.1:8000/api/users/me/`  
-- `http://127.0.0.1:8000/api/users/change-password/`  
-- `http://127.0.0.1:8000/api/users/<id>/reset-password/`
+- `https://ikhlabackend.deploy.tz/api/users/`  
+- `https://ikhlabackend.deploy.tz/api/users/me/`  
+- `https://ikhlabackend.deploy.tz/api/users/change-password/`  
+- `https://ikhlabackend.deploy.tz/api/users/<id>/reset-password/`
 
 ---
 
 ## 🏠 Home Page
-- `http://127.0.0.1:8000/api/carousels/`  
-- `http://127.0.0.1:8000/api/departments/`  
-- `http://127.0.0.1:8000/api/principal-messages/`
+- `https://ikhlabackend.deploy.tz/api/carousels/`  
+- `https://ikhlabackend.deploy.tz/api/departments/`  
+- `https://ikhlabackend.deploy.tz/api/principal-messages/`
 
 ---
 
 ## 🎉 Events
-- `http://127.0.0.1:8000/api/event-categories/`  
-- `http://127.0.0.1:8000/api/events/`  
-- `http://127.0.0.1:8000/api/enrollments/`
+- `https://ikhlabackend.deploy.tz/api/event-categories/`  
+- `https://ikhlabackend.deploy.tz/api/events/`  
+- `https://ikhlabackend.deploy.tz/api/enrollments/`
 
 ---
 
 ## 📖 About Us
-- `http://127.0.0.1:8000/api/aboutus/`  
-- `http://127.0.0.1:8000/api/objectives/`
+- `https://ikhlabackend.deploy.tz/api/aboutus/`  
+- `https://ikhlabackend.deploy.tz/api/objectives/`
 
 ---
 
 ## 🌍 Community Voices
-- `http://127.0.0.1:8000/api/programs/`  
-- `http://127.0.0.1:8000/api/testimonials/`
+- `https://ikhlabackend.deploy.tz/api/programs/`  
+- `https://ikhlabackend.deploy.tz/api/testimonials/`
 
 ---
 
 ## 📅 Calendar
-- `http://127.0.0.1:8000/api/calendar/`
+- `https://ikhlabackend.deploy.tz/api/calendar/`
 
 ---
 
 ## 📷 Resources
-- `http://127.0.0.1:8000/api/photos/`  
-- `http://127.0.0.1:8000/api/videos/`  
-- `http://127.0.0.1:8000/api/faqs/`
+- `https://ikhlabackend.deploy.tz/api/photos/`  
+- `https://ikhlabackend.deploy.tz/api/videos/`  
+- `https://ikhlabackend.deploy.tz/api/faqs/`
 
 ---
 
 ## 📬 Contact
-- `http://127.0.0.1:8000/api/contacts/`  
-- `http://127.0.0.1:8000/api/messages/`  
-- `http://127.0.0.1:8000/api/contributions/`
+- `https://ikhlabackend.deploy.tz/api/contacts/`  
+- `https://ikhlabackend.deploy.tz/api/messages/`  
+- `https://ikhlabackend.deploy.tz/api/contributions/`
 
 ---
 
