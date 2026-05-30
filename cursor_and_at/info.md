@@ -7,6 +7,9 @@
 
 ### Facilitators:
 -  Adam Mashaka from AT : https://github.com/AdamMashaka
--  Sik from Cursor TZ :
--  Vee from AT
+-  Sik from Cursor TZ 
+
+### What I have built:
+- Backend : https://shop.deploy.tz/
+- Frontend : https://duka.deploy.tz/
 
