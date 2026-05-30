@@ -1,5 +1,7 @@
 # Event Name: Cursor + AT
 
+### Date : Saturday, 30 May 2026 - IAAT nearby Costech Daressalaam
+
 ### Output:
  - Using Premium Cursor
  - Using AT APIs
