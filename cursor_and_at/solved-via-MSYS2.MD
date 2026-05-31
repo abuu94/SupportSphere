@@ -28,4 +28,15 @@ pip install pygobject
 Kwa muhtasari, njia bora zaidi kwa Windows na MSYS2 ni kutumia pacman kusakinisha mingw-w64-x86_64-python3-gobject badala ya kutumia pip install pygobject moja kwa moja.
 
 
+MSYS2 na Git Bash ni terminals mbili tofauti, ingawa zote zinatoa mazingira ya command line yenye msukumo wa Unix/Linux kwenye Windows.
+
+- **MSYS2** ni environment kamili zaidi yenye package manager (`pacman`) inayokuwezesha kusakinisha na kusimamia libraries, compilers, na zana nyingi za maendeleo (kama GTK, Python bindings, GCC, n.k). Ni kama mini-Linux shell yenye zana nyingi za maendeleo na uwezo wa ku-build na ku-run software za Unix/Linux kwenye Windows.
+
+- **Git Bash** ni terminal nyepesi inayokuja na Git kwa Windows, inayotumia msukumo wa bash shell na zana chache za msingi za Unix/Linux. Haijumuishi package manager au compilers nyingi kama MSYS2, na ni zaidi kwa ajili ya kutumia Git na amri za shell za kawaida.
+
+Kwa kifupi, MSYS2 ni zaidi ya Git Bash kwa upande wa uwezo wa kusakinisha na kuendesha zana za maendeleo, compilation, na libraries za GTK/GObject ambazo unahitaji kwa `pygobject`. Git Bash ni terminal rahisi zaidi, isiyo na zana nyingi za maendeleo.
+
+Ikiwa ungependa, naweza kuongeza sehemu hii ya maelezo kwenye page yako kama sehemu ya mwongozo wa tofauti kati ya MSYS2 na Git Bash.
+
+
 
