@@ -79,6 +79,3 @@ if __name__ == '__main__':
 - Ndani ya venv fanya tena
 ```pip install pygobject```
 
-
--  sssss
-- 
