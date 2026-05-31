@@ -69,7 +69,7 @@ if __name__ == '__main__':
 ```
 - Then you can confirm that pygobject is installed or not
 
-## Ikiwa tatizo haliajatatuka, fanya yafuatayo
+## 2.  Error:  Ikiwa tatizo haliajatatuka, fanya yafuatayo
 
 - Download and Install Visual Studio Community
 ```https://visualstudio.microsoft.com/downloads/```
