@@ -15,3 +15,7 @@
 - Backend : https://shop.deploy.tz/
 - Frontend : https://duka.deploy.tz/
 
+
+### Mr Adam's Tutorials:
+- Otp Class: https://github.com/AdamMashaka/otp-demo-africastalking
+- AfriAuth : https://github.com/AdamMashaka/africastalking-kit-sms
