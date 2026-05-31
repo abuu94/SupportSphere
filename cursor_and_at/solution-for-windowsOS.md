@@ -1,4 +1,6 @@
-### Error: I have faced a problem in my window 11 OS when working with 'rosetta',  'parler',    'localflavor', in django project.      What is the best OS for development ?
+## 1.  Error: 
+
+I have faced a problem in my window 11 OS when working with 'rosetta',  'parler',    'localflavor', in django project.      What is the best OS for development ?
 
 ### Solution:  nimejaribu hatua zifuatazo
 - Nimedownload na kuinstall  msys2-x86_64-20260322.exe manually
@@ -66,3 +68,17 @@ if __name__ == '__main__':
     check_gobject()
 ```
 - Then you can confirm that pygobject is installed or not
+
+## Ikiwa tatizo haliajatatuka, fanya yafuatayo
+
+- Download and Install Visual Studio Community
+```https://visualstudio.microsoft.com/downloads/```
+
+- Chagua/Check Box of Desktop development with C++
+- Baada ya kuinstall, fungua terminal mpya (PowerShell au Command Prompt) na hakikisha environment ya Visual Studio imeanzishwa (hii kawaida hufanyika kwa kuendesha vcvarsall.bat au kutumia "Developer Command Prompt for VS")
+- Ndani ya venv fanya tena
+```pip install pygobject```
+
+
+-  sssss
+- 
