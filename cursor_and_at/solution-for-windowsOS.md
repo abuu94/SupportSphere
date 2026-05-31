@@ -6,9 +6,9 @@
   https://www.msys2.org/?utm_source=copilot.com#installation
   https://www.msys2.org/docs/installer/
   ```
-- Run the following .bat script with Admin Preveledge
-  ```
-  @echo off
+- Run the following .bat script with Admin Preveledge setup_msys2_gtk.bat
+```
+@echo off
 REM ================================
 REM MSYS2 + GTK Setup Script (Windows)
 REM ================================
@@ -41,7 +41,8 @@ echo Restart your terminal and re-activate your virtualenv.
 echo Then run: pip install pygobject
 echo =================================
 
-pause ```
+pause
+```
 
 - Restart venv of your django project then run the pip command
 ```
