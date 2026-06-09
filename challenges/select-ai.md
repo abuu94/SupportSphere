@@ -3,8 +3,9 @@ How to decide which AI tool I shouls select to buid frontend ?
 - Tumia Claude AI akupe prompt nzuri kwa ajili ya Lovable, then tumia hio prompt kwenye Lovable
 - OpenRouter
 
-https://vault.camelcreatives.com/
-https://www.ziadapos.com/
+- https://vault.camelcreatives.com/
+- https://www.ziadapos.com/
+- https://www.developers.rafikisms.com
 
 
 Kuna App CamelTech anataka data za zenji, je ni app gani hio ?
